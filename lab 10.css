@@ -1,0 +1,12 @@
+  #canv1 {
+          padding-left: 0;
+          padding-right: 0;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          width: 800px;
+          border:1px solid #000000;
+          -webkit-box-shadow: 6px 10px 13px -4px rgba(0,0,0,0.74);
+          -moz-box-shadow: 6px 10px 13px -4px rgba(0,0,0,0.74);
+          box-shadow: 6px 10px 13px -4px rgba(0,0,0,0.74);
+      }

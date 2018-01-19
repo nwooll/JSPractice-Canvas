@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Lab 10</title>
+        <meta charset="uft-8">
+        <link rel="stylesheet" type="text/css" href="lab%2010.css">
+    </head>
+    
+    <body>
+    
+     <canvas id="canv1" width="640" height="480" >
+    </canvas>
+    
+        
+        
+    
+        <script>
+            
+ var canvas = document.getElementById("canv1");
+var ctx = canvas.getContext("2d")
+             
+            
+           
+            
+            ctx.beginPath();
+            ctx.moveTo(300,450);
+            ctx.lineTo(500,105);
+            ctx.lineTo(100,105);
+            ctx.fillStyle = "red";
+            ctx.fill();
+            
+             ctx.beginPath();
+            ctx.arc(205,175,20,0,Math.PI*2,true);
+            ctx.fillStyle = "black"
+            ctx.fill();
+            
+             ctx.beginPath();
+            ctx.arc(390,175,20,0,Math.PI*2,true);
+            ctx.fillStyle = "black"
+            ctx.fill();
+            
+             ctx.beginPath();
+            ctx.arc(205,175,10,0,Math.PI*2,true);
+            ctx.fillStyle = "white"
+            ctx.fill();
+            
+            ctx.beginPath();
+            ctx.arc(390,175,10,0,Math.PI*2,true);
+            ctx.fillStyle = "white"
+            ctx.fill();
+            
+              ctx.beginPath();
+            ctx.moveTo(300,440);
+            ctx.lineTo(375,305);
+            ctx.lineTo(225,305);
+            ctx.fillStyle = "white";
+            ctx.fill();
+            
+             ctx.beginPath();       
+            ctx.moveTo(300,270);
+            ctx.lineTo(320,305);
+            ctx.lineTo(281,305);    
+            ctx.fillStyle = "white";
+            ctx.fill();
+            
+             ctx.beginPath();       
+            ctx.moveTo(262,270);
+            ctx.lineTo(243,305);
+            ctx.lineTo(282,305);    
+            ctx.fillStyle = "white";
+            ctx.fill();
+            
+             ctx.beginPath();
+            ctx.moveTo(300,440);
+            ctx.lineTo(320,405);
+            ctx.lineTo(281,405);
+            ctx.fillStyle = "black";
+            ctx.fill();
+            
+             ctx.beginPath();       
+            ctx.moveTo(340,270); //top*/
+            ctx.lineTo(358,305);
+            ctx.lineTo(320,305);    
+            ctx.fillStyle = "white";
+            ctx.fill();
+            
+             ctx.beginPath();       
+            ctx.moveTo(395,270); //top*/
+            ctx.lineTo(375,305); //right*/
+            ctx.lineTo(358,305);    
+            ctx.fillStyle = "white";
+            ctx.fill();
+            
+             ctx.beginPath();       
+            ctx.moveTo(205,270);
+            ctx.lineTo(244,305);
+            ctx.lineTo(225,305);    
+            ctx.fillStyle = "white";
+            ctx.fill();
+            
+             ctx.beginPath();
+            ctx.moveTo(140,40);
+            ctx.lineTo(100,95);
+            ctx.lineTo(190,95);
+            ctx.fillStyle = "red";
+            ctx.fill();
+            
+             ctx.beginPath();
+            ctx.moveTo(450,40);
+            ctx.lineTo(410,95);
+            ctx.lineTo(500,95);
+            ctx.fillStyle = "red";
+            ctx.fill();
+    
+        </script>
+        
+    </body>
+</html>
